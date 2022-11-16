@@ -14,7 +14,9 @@ It consists of a basic program used to add and manage students in the database, 
 * Mariadb java client
 
 ## Running instructions
-1. Start MariaDB, I personaly use XAMPP.
+1. Start MariaDB, I personaly use XAMPP.<br>
+![xampp](https://user-images.githubusercontent.com/76976573/202275116-3ee7149d-d86a-4fc7-ac21-5f91cc1331a9.png)
+
 2. Open a command prompt and type the following command:
 ```console
 mysql -h localhost -u root
@@ -32,6 +34,8 @@ If we want to view the databases's elements, we can do it several ways:
 ```sql
 select * from student;
 ```
+![dataBase](https://user-images.githubusercontent.com/76976573/202274960-1e51fa00-07a1-4afa-8962-a59e9bea963a.png)
+
 <sup>1</sup>Take into account that you can change the application's running port by modifying the following line from the [`/src/main/resources/application.properties`](https://github.com/carlosmgv02/StudentProject/blob/a3902eed6e915535a64b9d2b5e7b61138adb3ab9/src/main/resources/application.properties) file:
 ```java
 spring.datasource.url=jdbc:mariadb://localhost:3306/student
