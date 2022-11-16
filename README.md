@@ -32,7 +32,7 @@ If we want to view the databases's elements, we can do it several ways:
 ```sql
 select * from student;
 ```
-<sup>1</sup>Take into account that you can change the application's running port by modifying the following line from the `/src/main/resources/application.properties` file:
+<sup>1</sup>Take into account that you can change the application's running port by modifying the following line from the [`/src/main/resources/application.properties`](https://github.com/carlosmgv02/StudentProject/blob/a3902eed6e915535a64b9d2b5e7b61138adb3ab9/src/main/resources/application.properties) file:
 ```java
 spring.datasource.url=jdbc:mariadb://localhost:3306/student
 ```
